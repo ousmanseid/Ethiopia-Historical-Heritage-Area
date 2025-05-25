@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Ethiopia - Explore Ancient Wonders</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Historical Ethiopia</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Discover Ethiopia's Ancient Wonders</h1>
+            <p class="hero-subtitle">Journey through 3,000 years of history across breathtaking landscapes</p>
+            <a href="#destinations" class="btn-explore">Explore Now</a>
+        </div>
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="intro-content">
+                <h2>Ethiopia - Cradle of Civilization</h2>
+                <p>Ethiopia boasts some of Africa's most spectacular historical sites, from ancient obelisks and medieval castles to rock-hewn churches,mesjid and walled cities. As one of the oldest continuously inhabited countries in the world, Ethiopia offers visitors a chance to walk through living history.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">9</span>
+                        <span class="stat-label">UNESCO World Heritage Sites</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3000+</span>
+                        <span class="stat-label">Years of Recorded History</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">80+</span>
+                        <span class="stat-label">Ethnic Groups</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations -->
+    <section id="destinations" class="destinations-section">
+        <div class="section-header">
+            <h2>Must-Visit Historical Destinations</h2>
+            <p>Explore Ethiopia's most iconic historical landmarks</p>
+        </div>
+        <div class="destinations-grid">
+            <!-- Lalibela -->
+            <div class="destination-card" data-destination="lalibela">
+                <div class="card-image">
+                    <img src="./image/OIP.jpg" alt="Rock-Hewn Churches of Lalibela">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3>Lalibela</h3>
+                    <p>The 12th-century rock-hewn churches, often called the "Eighth Wonder of the World"</p>
+                    <a href="https://en.wikipedia.org/wiki/Lalibela" class="btn-learn-more">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Axum -->
+            <div class="destination-card" data-destination="axum">
+                <div class="card-image">
+                    <img src="./image/OIP (2).jpg" alt="Obelisk of Axum">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3>Axum</h3>
+                    <p>Ancient capital of the Aksumite Empire with towering obelisks and the legendary Ark of the Covenant</p>
+                    <a href="https://en.wikipedia.org/wiki/Axum" class="btn-learn-more">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Gondar -->
+            <div class="destination-card" data-destination="gondar">
+                <div class="card-image">
+                    <img src="./image/OIP (1).jpg" alt="Fasil Ghebbi, Gondar">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3>Gondar</h3>
+                    <p>The "Camelot of Africa" with its 17th-century castles and royal enclosure</p>
+                    <a href="https://en.wikipedia.org/wiki/Gondar" class="btn-learn-more">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Harar -->
+            <div class="destination-card" data-destination="harar">
+                <div class="card-image">
+                    <img src="./image/download.jpg" alt="Harar Jugol">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3>Harar</h3>
+                    <p>Ancient walled city with 82 mosques and unique hyena feeding tradition</p>
+                    <a href="https://en.wikipedia.org/wiki/Harar" class="btn-learn-more">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Tiya -->
+            <div class="destination-card" data-destination="tiya">
+                <div class="card-image">
+                    <img src="./image/OIP (3).jpg" alt="Tiya Stelae">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3>Tiya</h3>
+                    <p>Archaeological site with mysterious engraved stelae dating back to the 12th-14th centuries</p>
+                    <a href="https://en.wikipedia.org/wiki/Tiya_(archaeological_site)" class="btn-learn-more">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Yeha -->
+            <div class="destination-card" data-destination="yeha">
+                <div class="card-image">
+                    <img src="./image/OIP (4).jpg" alt="Temple of Yeha">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3>Yeha</h3>
+                    <p>Site of Ethiopia's oldest standing structure - a 7th-century BC temple</p>
+                    <a href="https://en.wikipedia.org/wiki/Yeha" class="btn-learn-more">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Destination -->
+    <section class="featured-destination">
+        <div class="container">
+            <div class="featured-content">
+                <h2>Featured: Rock-Hewn Churches of Lalibela</h2>
+                <p>The 11 medieval monolithic cave churches of Lalibela are a UNESCO World Heritage Site and one of Ethiopia's most sacred sites. Carved entirely out of rock in the 12th century under King Lalibela's reign, these churches remain active places of worship today.</p>
+                <div class="featured-highlights">
+                    <div class="highlight">
+                        <i class="fas fa-church"></i>
+                        <h4>Bete Giyorgis</h4>
+                        <p>The most famous cross-shaped church dedicated to St. George</p>
+                    </div>
+                    <div class="highlight">
+                        <i class="fas fa-water"></i>
+                        <h4>Sacred Water</h4>
+                        <p>Pilgrims collect holy water from the trenches around the churches</p>
+                    </div>
+                    <div class="highlight">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h4>Timkat Festival</h4>
+                        <p>Epiphany celebrations transform Lalibela into a sea of white robes</p>
+                    </div>
+                </div>
+                <a href="#" class="btn-primary">Plan Your Visit</a>
+            </div>
+            <div class="featured-image">
+                <img src="./image/OIP.jpg" alt="Lalibela Churches">
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="timeline-section">
+        <div class="section-header">
+            <h2>Ethiopia's Historical Timeline</h2>
+            <p>Key moments in Ethiopia's rich history</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">8th century BC</div>
+                <div class="timeline-content">
+                    <h3>D'mt Kingdom</h3>
+                    <p>One of Ethiopia's earliest known civilizations with its capital at Yeha</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">1st century AD</div>
+                <div class="timeline-content">
+                    <h3>Aksumite Empire</h3>
+                    <p>Powerful trading empire that minted its own coins and erected giant obelisks</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">4th century</div>
+                <div class="timeline-content">
+                    <h3>Christianity Adopted</h3>
+                    <p>One of the first countries to adopt Christianity as a state religion</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">12th century</div>
+                <div class="timeline-content">
+                    <h3>Zagwe Dynasty</h3>
+                    <p>Construction of the rock-hewn churches of Lalibela</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">17th century</div>
+                <div class="timeline-content">
+                    <h3>Gondar Era</h3>
+                    <p>Construction of castles and establishment of Gondar as imperial capital</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-section">
+        <div class="section-header">
+            <h2>Explore Ethiopia's Beauty</h2>
+            <p>Visual journey through historical landmarks</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="./image/OIP.jpg" alt="Lalibela">
+                <div class="gallery-overlay">
+                    <h3>Lalibela</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./image/OIP (2).jpg" alt="Axum">
+                <div class="gallery-overlay">
+                    <h3>Axum</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./image/OIP (1).jpg" alt="Gondar">
+                <div class="gallery-overlay">
+                    <h3>Gondar</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./image/download.jpg" alt="Harar">
+                <div class="gallery-overlay">
+                    <h3>Harar</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./image/OIP (3).jpg" alt="Tiya">
+                <div class="gallery-overlay">
+                    <h3>Tiya</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./image/OIP (4).jpg" alt="Yeha">
+                <div class="gallery-overlay">
+                    <h3>Yeha</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="section-header">
+            <h2>Traveler Experiences</h2>
+            <p>What visitors say about Ethiopia's historical sites</p>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Walking through Lalibela's rock-hewn churches was like stepping back in time. The devotion of the pilgrims and the incredible craftsmanship took my breath away."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah J.">
+                    <div>
+                        <h4>Sarah J.</h4>
+                        <span>Travel Blogger</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"The obelisks of Axum are truly monumental. Learning about the Aksumite Empire's history while standing next to these ancient structures was unforgettable."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael T.">
+                    <div>
+                        <h4>Michael T.</h4>
+                        <span>History Enthusiast</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Harar's walled city with its colorful markets and hyena feeding tradition was unlike anything I've experienced. Ethiopia's cultural diversity is astounding."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Amina K.">
+                    <div>
+                        <h4>Amina K.</h4>
+                        <span>Photographer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conservation -->
+    <section class="conservation-section">
+        <div class="container">
+            <div class="conservation-image">
+                <img src="./image/ethiopia-map---nrc.webp" alt="Conservation">
+            </div>
+            <div class="conservation-content">
+                <h2>Preserving Ethiopia's Heritage</h2>
+                <p>Ethiopia's historical sites face challenges from environmental factors, urbanization, and tourism pressures. Conservation efforts are crucial to protect these irreplaceable treasures for future generations.</p>
+                <ul class="conservation-list">
+                    <li><i class="fas fa-check-circle"></i> UNESCO-supported restoration projects</li>
+                    <li><i class="fas fa-check-circle"></i> Community-based heritage management</li>
+                    <li><i class="fas fa-check-circle"></i> Sustainable tourism initiatives</li>
+                    <li><i class="fas fa-check-circle"></i> Digital preservation technologies</li>
+                </ul>
+                <a href="#" class="btn-secondary">Support Conservation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-info">
+                <h2>Plan Your Historical Journey</h2>
+                <p>Ready to explore Ethiopia's ancient wonders? Contact us for travel advice, guided tour information, and cultural insights.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Addis Ababa, Ethiopia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+251 123 456 789</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@historicalethiopia.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for the latest on Ethiopia's historical sites, travel tips, and conservation news.</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Historical Ethiopia</h3>
+                    <p>Promoting and preserving Ethiopia's rich historical heritage through education and responsible tourism.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#about">About Ethiopia</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-destinations">
+                    <h3>Historical Sites</h3>
+                    <ul>
+                        <li><a href="#">Lalibela</a></li>
+                        <li><a href="#">Axum</a></li>
+                        <li><a href="#">Gondar</a></li>
+                        <li><a href="#">Harar</a></li>
+                        <li><a href="#">Tiya</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Historical Ethiopia. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
