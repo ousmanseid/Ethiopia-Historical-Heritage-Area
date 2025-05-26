@@ -238,21 +238,36 @@ ul {
 /* Hero Section */
 .hero {
     height: 100vh;
-    min-height: 700px;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                url('https://images.unsplash.com/photo-1581434681388-6aec0b1f3b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
-    position: relative;
+
+}
+
+#hero-video-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; 
+    transform: translateX(-50%) translateY(-50%);
+    object-fit: cover; 
 }
 
 .hero-content {
-    max-width: 800px;
     padding: 0 20px;
     animation: fadeInUp 1s ease;
+    position: relative; 
+    z-index: 1;
+    animation: fadeInUp 1s ease;
+    background: rgba(0, 0, 0, 0.3); 
+    padding: 2rem;
+    border-radius: var(--border-radius);
 }
 
 .hero-title {
