@@ -846,6 +846,31 @@ ul {
     color: white;
     text-align: center;
 }
+.btn-primary{
+    border-radius: 30px;
+    padding: 10px;
+
+}
+/*buttonsend message and explore*/
+.btn-primary:hover{
+    opacity:0.5;
+}
+.btn-explore{
+    border-radius: 20px;
+    padding: 10px;
+}
+.btn-explore:hover{
+   opacity: 0.5;
+}
+.btn-secondary{
+     border-radius: 20px;
+    padding: 10px;
+}
+.btn-secondary:hover{
+   opacity: 0.8;
+  background-color: rgb(116, 231, 185);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
 .newsletter-section .container {
     display: flex;
